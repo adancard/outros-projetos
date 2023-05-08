@@ -1,0 +1,218 @@
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header, nav{
+    background-color: rgb(112,128,144);
+    display: flex;
+    
+}
+
+header{
+    /* border: solid red; */
+    display: flex;
+    height: 100px;
+    width: 100%;
+    flex: 1 1 100vw;
+}
+
+header #logo{
+    display: flex;
+    flex: 0 1 200px;
+    background: rgb(112,128,144);
+    justify-content: center;
+    align-items: center;
+}
+
+#openMenu,#closeMenu{
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1 1 200px;
+}
+
+nav a{
+    margin: 0 3%;
+    font-size: 15pt;
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4,.pimg5,.pimg6,.pimg7,.pimg8,.pimg9,.pimg10,.pimg11,.pimg12{
+
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.pimg1 {
+
+    background-image: url(../img/dyfundo.jpg);
+    min-height: 400px;
+
+}
+
+.pimg2{
+
+    background-image: url(../img/img1.jpg);
+    min-height: 400px;
+
+}
+
+.pimg3{
+
+    background-image: url(../img/img2.webp);
+    min-height: 400px;
+
+}
+
+
+.pimg4{
+
+    background-image: url(../img/img3.webp);
+    min-height: 400px;
+
+}
+
+.pimg5{
+
+    background-image: url(../img/harran1.jpg);
+    min-height: 400px;
+
+}
+
+.pimg6{
+
+    background-image: url(../img/virus.webp);
+    min-height: 400px;
+
+}
+
+.pimg7{
+
+    background-image: url(../img/harran2.jpg);
+    min-height: 400px;
+
+}
+
+.pimg8{
+
+    background-image: url(../img/origi.jpg);
+    min-height: 400px;
+
+}
+
+.pimg9{
+
+    background-image: url(../img/anti.jpg);
+    min-height: 400px;
+
+}
+
+.pimg10{
+
+    background-image: url(../img/dlf.jpg);
+    min-height: 400px;
+
+}
+
+.pimg11{
+
+    background-image: url(../img/fundo.webp);
+    min-height: 400px;
+
+}
+
+.pimg12{
+
+    background-image: url(../img/dlc.jpg);
+    min-height: 400px;
+
+}
+
+
+
+
+
+.section {
+
+    text-align: center;
+    padding: 50px 80px;
+
+}
+
+.section-light {
+
+    background-color: #111;
+    color: #f4f4f4;
+    font-size: 15px;
+
+}
+
+.ptext{
+
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.ptext .border{
+
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.ptext .border .trans{
+
+    background-color: transparent;
+
+}
+
+#menu a{
+
+    text-decoration: none;
+    color: #111;
+
+}
+
+#menu a:hover{
+
+    background-color: #FF8C00;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    transition: 1s 0s;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+
+}
