@@ -7,9 +7,23 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 70%;   
-        height: 60%;
+        width: 90%;   
+        height: 90%;
         
     }
+
+    .a1{
+
+        top: 40%;   
+
+    }
+
+    .a2{
+
+        top: 40%;
+
+    }
+
+
     
 }
