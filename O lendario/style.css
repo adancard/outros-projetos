@@ -46,6 +46,7 @@ a{
 }
 
 .a2{
+    display: block;
     position: absolute;
     top: 60%;
     left: 60%;
